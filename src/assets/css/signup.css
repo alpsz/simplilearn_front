@@ -1,0 +1,65 @@
+  .main-row {
+    display: flex;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0px 14px 80px rgba(70, 71, 102, 0.3);
+  }
+  h3 {
+      text-align: center;
+      margin-bottom: 50px;
+      color: #167bff;
+      margin-top: 50px;
+  }
+  .form-group {
+      margin: 25px;
+  }
+  label {
+      margin-bottom: 10px;
+  }
+
+  .form-group-button {
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .custom-btn {
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #FF3B03;
+    background-color: white;
+    color: #FF3B03;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 40px;
+    transition: 0.8s;
+    box-shadow: 0px 10px 20px rgba(255, 59, 3, 0.6);
+  }
+  .custom-btn:hover{
+    background-color: #FF3B03;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 10px;
+  }
+  
+  .navbar-light {
+    background-color: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  }
+
+  .forgot-password,
+  .forgot-password a {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #7f7d7d;
+    margin: 0;
+  }
+  
+  .forgot-password a {
+    color: #167bff;
+  }

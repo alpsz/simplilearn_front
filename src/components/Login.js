@@ -1,16 +1,15 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import '../assets/css/signup.css';
 
-class Signup extends React.Component {
+class Login extends React.Component {
     render () {
         return (
             <>
                 <Container >
                     <Row style={{ marginTop: '150px' }} className="main-row">
                         <form>
-                            <h3 style={{ marginTop: '50px' }}>Signup Details</h3>
+                            <h3 style={{ marginTop: '50px' }}>Login Details</h3>
                             <div className="form-group">
                                 <label>Email Address</label>
                                 <input type="text" className="form-control" placeholder="example@gmail.com" />
@@ -20,9 +19,9 @@ class Signup extends React.Component {
                                 <input type="password" className="form-control" placeholder="Type your password" />
                             </div>
                             <div className="form-group-button">
-                                <button type="submit" className="custom-btn">Sign Up</button>
+                                <button type="submit" className="custom-btn">Login</button>
                                 <p style={{ textAlign: 'right', marginRight: '25px', marginBottom: '25px' }}>
-                                    Already registered ? <Link to="/login">Login now</Link>
+                                    Don't have a account ? <Link to="/signup">Signup now</Link>
                                 </p>
                             </div>
                         </form>
@@ -30,7 +29,7 @@ class Signup extends React.Component {
                 </Container>
             </>
         );
-    };
+    }
 }
 
-export default Signup;
+export default Login;

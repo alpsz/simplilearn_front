@@ -1,0 +1,11 @@
+.navbarfont {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbarfont:hover {
+    color: orange
+}
+
